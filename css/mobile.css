@@ -5,6 +5,7 @@
         padding:0;
         box-sizing:border-box;
         font-family:Arial, Helvetica, sans-serif;
+         scroll-behavior: smooth;
        
      
   }
@@ -65,11 +66,12 @@
             background-color: rgb(62, 102, 102);
             
 
-            .logo{
-                color:rgb(135, 200, 179);    
+            .logo a{
+                color:rgb(135, 200, 179); 
+                text-decoration: none;   
                 
             }
-
+           
             .links{
                 display: none;
                 gap:1.5rem;
@@ -114,11 +116,12 @@
         }
         .mobile_links a{
              display: flex;
-              margin-bottom:25px;
+             margin-bottom:40px;
              align-items:center;
              justify-content:center;
              text-decoration:none;
              color:white;
+             font-size: 18px;
              
              
         }
@@ -151,7 +154,7 @@
           text-align:center;
 
           .green{
-              color:rgb(16, 122, 122);
+              color:rgb(43, 154, 154);
           }
      
     }
@@ -542,7 +545,7 @@
 
             .more{
                 text-align:center;
-                margin-top:1rem;
+                margin-top:2.2rem;
              
             }
             .more a{
@@ -564,7 +567,7 @@
     display:grid;
     gap:2rem;
     background-color: #000000d3;
-    margin-top:36rem;
+    margin-top:33rem;
   
     .row1{
        display:grid;
@@ -623,16 +626,12 @@
   /* about page styles */
 
   .about_container{
-    height:40vh;
+    height:30vh;
     background-image: url(../img/img5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-/* 
-    .blur{
-        height:50vh;
-        background-color: rgba(0, 0, 0, 0.508);
-    } */
+
 
     .hero{
           
@@ -650,7 +649,7 @@
 
   .hero h1{
            font-size:3rem;
-           color:rgb(78, 78, 78);
+           color:rgb(16, 122, 122);
    
   }
 

@@ -12,24 +12,32 @@ const radiology= document.getElementById('radiology');
 
 pharmacy.addEventListener('click', ()=> {
       title.innerText = "About Pharmacy"
-      textContent.innerText = " This Is The Pharmacy Department, How Can We Help?"
+      textContent.innerText = " This Is The Pharmacy , How Can We Help?"
 })
 dentist.addEventListener('click', ()=> {
       title.innerText = "About dentist"
-      textContent.innerText = " This Is The dentist Department, How Can We Help?"
+      textContent.innerText = " This Is The Dentist Department, How Can We Help?"
 })
 pediatrics.addEventListener('click', ()=> {
       title.innerText = "About  pediatrics"
-      textContent.innerText = " This Is The  pediatrics Department, How Can We Help?"
+      textContent.innerText = " This Is The  Pediatric Department, How Can We Help?"
 })
  
 laboratory.addEventListener('click', ()=> {
       title.innerText = "About laboratory"
-      textContent.innerText = " This Is The laboratory Department, How Can We Help?"
+      textContent.innerText = " This Is The Laboratory , How Can We Help?"
 })
 orthopedic.addEventListener('click', ()=> {
       title.innerText = "About Orthopedic"
       textContent.innerText = " This Is The Orthopedic Department, How Can We Help?"
+})
+heamatology.addEventListener('click', ()=> {
+      title.innerText = "About Heamatology"
+      textContent.innerText = " This Is The Heamatology Department, How Can We Help?"
+})
+radiology.addEventListener('click', ()=> {
+      title.innerText = "About Radiology"
+      textContent.innerText = " This Is The Radiology Department, How Can We Help?"
 })
 
 
