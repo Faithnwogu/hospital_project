@@ -448,7 +448,7 @@
   }
 
   .specialist_container{
-           height:100vh;
+           height:auto;
             margin-top:2rem;
             .row1{
                 display: grid;
@@ -536,16 +536,12 @@
                           
                      }
 
-
-                   
-
-
                 }
             }
 
             .more{
                 text-align:center;
-                margin-top:2.2rem;
+                
              
             }
             .more a{
@@ -563,11 +559,113 @@
 
   }
 
-  .footer{
+
+  /* about page styles */
+
+  .about_container{
+    height:auto;
+    background-image: url(../img/img5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    .hero{
+          
+        position: relative;
+        top:1rem;
+        display: grid;
+        place-items:center;
+        padding:1rem;
+
+        .green{
+            color:rgb(16, 122, 122);
+        }
+   
+  }
+
+  .hero h1{
+           font-size:3rem;
+           color:rgb(16, 122, 122);
+   
+  }
+
+  .actions{
+      width:200px;
+      background-color: rgb(16, 122, 122);
+      padding:1rem;
+      text-align:center;
+      border-radius:50px;
+      transition: 1s;
+
+      &:hover{
+          cursor: pointer;
+          background-color:rgb(29, 153, 153) ;
+      }
+  }
+  .actions a{
+           text-decoration:none;
+           color:white;     
+   
+  }
+ 
+
+}
+
+.about{
+    display: grid;
+    row-gap:1rem;
+    height:auto;
+
+  .row1{
+        margin:0 auto;
+         text-align: center;
+       .decor{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            gap:2rem;
+            margin-top:10px;
+       }   
+  }
+
+  .row2{
+        display:grid;
+        place-items:center;
+       font-size:17px;
+       
+       .col1 img{
+            width:500px;
+
+       }
+
+       .col2{
+           padding:1rem 2rem;
+
+            .about-info{
+                line-height:1.5;
+            } 
+
+       }
+
+      
+  }
+
+  }
+
+
+
+
+}
+
+
+
+
+.footer{
     display:grid;
     gap:2rem;
     background-color: #000000d3;
-    margin-top:33rem;
+    
   
     .row1{
        display:grid;
@@ -621,102 +719,3 @@
     }
 }
 
-
-
-  /* about page styles */
-
-  .about_container{
-    height:30vh;
-    background-image: url(../img/img5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-
-    .hero{
-          
-        position: relative;
-        top:1rem;
-        display: grid;
-        place-items:center;
-        padding:1rem;
-
-        .green{
-            color:rgb(16, 122, 122);
-        }
-   
-  }
-
-  .hero h1{
-           font-size:3rem;
-           color:rgb(16, 122, 122);
-   
-  }
-
-  .actions{
-      width:200px;
-      background-color: rgb(16, 122, 122);
-      padding:1rem;
-      text-align:center;
-      border-radius:50px;
-      transition: 1s;
-
-      &:hover{
-          cursor: pointer;
-          background-color:rgb(29, 153, 153) ;
-      }
-  }
-  .actions a{
-           text-decoration:none;
-           color:white;     
-   
-  }
- 
-
-}
-
-.about{
-    display: grid;
-    row-gap:1rem;
-    height:50vh;
-
-  .row1{
-        margin:0 auto;
-         text-align: center;
-       .decor{
-            display:flex;
-            align-items: center;
-            justify-content: center;
-            gap:2rem;
-            margin-top:10px;
-       }   
-  }
-
-  .row2{
-        display:grid;
-        place-items:center;
-       font-size:17px;
-       
-       .col1 img{
-            width:500px;
-
-       }
-
-       .col2{
-           padding:1rem 2rem;
-
-            .about-info{
-                line-height:1.5;
-            } 
-
-       }
-
-      
-  }
-
-  }
-
-
-
-
-}
